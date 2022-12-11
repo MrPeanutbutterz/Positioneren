@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* oranje #DE6127, lichtgrijs #e8e8e8, donkergrijs #737373 */
+/* color picker = #faa0c7, #272729, #928471 en #c2c2b4 */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.product {
+    margin: 80px auto;
+    width: 350px;
+}
+
+.photo-group {
+    position: relative;
+}
+
+#blazer-photo {
+    width: 100%;
+}
+
+#fav-icon {
+    position: absolute;
+    width: 25px;
+    top: 495px;
+    left: 315px;
+}
+
+#label {
+    position: absolute;
+    top: 50px;
+    left: -57px;
+    rotate: 270deg;
+    background-color: #e8e8e8;
+    color: #DE6127;
+    text-transform: uppercase;
+    padding: 7px 20px;
+}
+
+h5 {
+    color: #737373;
+    margin: 5px 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.color-pick {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#pink {
+    background-color: #faa0c7;
+}
+#blue {
+    background-color: #272729;
+}
+#darkgray {
+    background-color: #928471;
+}
+#lightgray {
+    background-color: #c2c2b4;
+}
+
